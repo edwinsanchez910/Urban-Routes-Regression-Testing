@@ -3,11 +3,10 @@
 ## 📋 Descripción del Proyecto
 Este proyecto consistió en el aseguramiento de calidad del módulo principal de la aplicación **Urban Routes**. El enfoque principal fue validar la interactividad del mapa, la precisión de los campos de búsqueda "Desde" y "Hasta" y el flujo lógico de selección de destinos.
 
-## 🛠️ Metodologías y Herramientas
-* **Diseño de Pruebas:** Creación de Checklists y Casos de Prueba (Test Cases).
-* **Técnicas de QA:** Análisis de valores límite y partición de equivalencia para campos de dirección.
-* **Documentación:** Reporte detallado de errores (Bug Reporting) con priorización técnica.
-* **Entorno:** Google Chrome DevTools para inspección de elementos.
+## 🛠️ Actividades Realizadas
+* **Pruebas de Navegación:** Verificación de los campos de dirección y pines del mapa.
+* **Interactividad:** Comprobación de botones de zoom, capas de mapa y renderizado de objetos.
+* **Bug Reporting:** Documentación detallada de errores visuales y de flujo detectados durante la exploración..
 
 ## 🔍 Cobertura de la Suite de Pruebas
 Se ejecutaron pruebas exhaustivas sobre los siguientes componentes:
