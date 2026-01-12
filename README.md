@@ -3,16 +3,13 @@
 ## 📋 Descripción del Proyecto
 Este proyecto consistió en el aseguramiento de calidad del módulo principal de la aplicación **Urban Routes**. El enfoque principal fue validar la interactividad del mapa, la precisión de los campos de búsqueda "Desde" y "Hasta" y el flujo lógico de selección de destinos.
 
-## 🛠️ Actividades Realizadas
-* **Pruebas de Navegación:** Verificación de los campos de dirección y pines del mapa.
-* **Interactividad:** Comprobación de botones de zoom, capas de mapa y renderizado de objetos.
-* **Bug Reporting:** Documentación detallada de errores visuales y de flujo detectados durante la exploración..
+## 🔍 Alcance y Ejecución de Pruebas
+Se realizaron pruebas exhaustivas de interfaz (UI) y funcionalidad básica sobre los siguientes componentes:
 
-## 🔍 Cobertura de la Suite de Pruebas
-Se ejecutaron pruebas exhaustivas sobre los siguientes componentes:
-* **Campos de Dirección:** Validación de entradas de texto y sincronización con los pines del mapa.
-* **Interactividad del Mapa:** Pruebas de renderizado de objetos 3D, edificios, estaciones de metro y parques.
+* **Campos de Dirección:** Validación de entradas de texto y sincronización en tiempo real con los pines del mapa.
+* **Interactividad del Mapa:** Pruebas de renderizado de objetos 3D, edificios y estaciones de metro.
 * **Modos de Visualización:** Verificación de controles de zoom, modo Satélite, Relieve y Street View.
+* **Bug Reporting:** Documentación técnica de errores visuales y lógicos detectados durante la exploración.
 
 ## 🐛 Gestión de Defectos (Bug Reporting)
 Se documentaron fallos críticos que afectan la experiencia del usuario. A continuación, el resumen del informe de errores:
