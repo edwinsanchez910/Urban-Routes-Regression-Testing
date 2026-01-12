@@ -1,14 +1,38 @@
-# Urban-Routes-Regression-Testing
-Aseguramiento de calidad y pruebas de regresión para la plataforma de logística Urban Routes
-# 🚀 Pruebas de Regresión: Urban Routes
+# 🚀 QA Testing: Interfaz y Lógica de Mapas - Urban Routes
 
 ## 📋 Descripción del Proyecto
-Aseguramiento de calidad para **Urban Routes**, una aplicación de logística que calcula rutas, duración y precios. El enfoque principal fue ejecutar **pruebas de regresión** para garantizar la estabilidad de la interfaz y sus diversas funcionalidades como los modos "Óptimo", "Flash" y "Personal".
+Este proyecto consistió en el aseguramiento de calidad del módulo principal de la aplicación **Urban Routes**. El enfoque principal fue validar la interactividad del mapa, la precisión de los campos de búsqueda "Desde" y "Hasta" y el flujo lógico de selección de destinos.
 
-## 🛠️ Tecnologías y Herramientas
-* **Análisis de Requisitos:** Diseño de pruebas basadas en la lógica de algoritmos específicos de la app.
-* **Documentación Técnica:** Creación de listas de control (Checklists) y Casos de Prueba.
-* **Gestión de Datos:** Manejo de reportes detallados en formato Excel.
+## 🛠️ Metodologías y Herramientas
+* **Diseño de Pruebas:** Creación de Checklists y Casos de Prueba (Test Cases).
+* **Técnicas de QA:** Análisis de valores límite y partición de equivalencia para campos de dirección.
+* **Documentación:** Reporte detallado de errores (Bug Reporting) con priorización técnica.
+* **Entorno:** Google Chrome DevTools para inspección de elementos.
 
-## 📈 Entregables en este Repositorio
-* **Archivo de Pruebas:** `EDWIN SANCHEZ, 1.er grupo - 1.er sprint.xlsx` contiene el diseño completo de la estrategia de QA.
+## 🔍 Cobertura de la Suite de Pruebas
+Se ejecutaron pruebas exhaustivas sobre los siguientes componentes:
+* **Campos de Dirección:** Validación de entradas de texto y sincronización con los pines del mapa.
+* **Interactividad del Mapa:** Pruebas de renderizado de objetos 3D, edificios, estaciones de metro y parques.
+* **Modos de Visualización:** Verificación de controles de zoom, modo Satélite, Relieve y Street View.
+
+## 🐛 Gestión de Defectos (Bug Reporting)
+Se documentaron fallos críticos que afectan la experiencia del usuario. A continuación, el resumen del informe de errores:
+
+| ID | Defecto | Severidad | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **B001** | Al buscar en el campo "Hasta", la lista de estaciones de metro no aparece. | **Crítica** | **Alta** |
+| **B002** | El sistema no identifica lugares específicos (ej. "subway") en la búsqueda. | **Crítica** | **Alta** |
+| **B003** | El campo "Desde" no señaliza visualmente direcciones válidas ingresadas. | Menor | Media |
+| **B004** | El logotipo de la aplicación no es interactivo (no despliega información). | Trivial | Baja |
+
+> **Nota Técnica:** Los errores B001 y B002 fueron clasificados como críticos ya que impiden completar el flujo principal de navegación de la aplicación.
+
+## 📈 Entregables
+1. **Plan de Pruebas:** Detalle de casos ejecutados (Aprobados/Fallidos).
+2. **Reporte de Bugs:** Documentación técnica de los hallazgos para el equipo de desarrollo.
+3. **Evidencias:** Capturas de pantalla de los errores de renderizado detectados.
+
+---
+### 👤 Contacto
+**Edwin Sánchez** 📧 [esanchez9103@outlook.com](mailto:esanchez9103@outlook.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/edwin-sanchez-041a8722b/)
